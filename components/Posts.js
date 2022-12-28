@@ -54,7 +54,7 @@ export default function Posts() {
             <p className="p-2">{post.content}</p>
             <div>
               <picture>
-                <img src={post.image} alt="picture" />
+                <img className="w-full" src={post.image} alt="picture" />
               </picture>
             </div>
             <div className="h-[50px] flex items-center justify-around">
